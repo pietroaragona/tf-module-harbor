@@ -18,3 +18,18 @@ variable "enable_content_trust_cosign" {
   default = "false"
   type = bool
 }
+
+##########################################
+
+variable "harbor_url" {
+  default = ""
+  type = string
+}
+variable "harbor_username" {
+  default = ""
+  type = string
+}
+variable "harbor_password" {
+  default = ""
+  type = string
+}
